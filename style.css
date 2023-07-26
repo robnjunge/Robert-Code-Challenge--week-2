@@ -1,0 +1,32 @@
+body{
+  text-align: center;
+  font-size: x-large;
+  background-color: rgb(179, 179, 234);
+
+}
+#container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+#list{
+  display: flex;
+  list-style-type: none;
+
+}
+#list li{
+  text-align: center; 
+  font-size: larger;
+  line-height: normal;
+  margin: 70px;
+  padding-left: 3px;
+  border-spacing: 10px;
+}
+button{
+  width: 100px;
+  height: 30px;
+  font-size: large;
+  background-color: aquamarine;
+
+}
