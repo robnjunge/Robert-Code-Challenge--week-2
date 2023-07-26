@@ -50,5 +50,25 @@ Example Response:
    },
  
 When viewing an animal’s details, I should be able to add the number of votes for each animal. This number of votes should then be displayed together with the animal’s details. No persistence is needed for the votes.
-### Running application
-<a src = "">
+## Running application
+
+### Clone from this link
+(https://github.com/robnjunge/Robert-Code-Challenge--week-2)
+
+### Run this command
+
+json-server --watch db.json
+
+Test your server by visiting the following route in the browser:
+
+http://localhost:3000/characters
+
+Then open the *index.html*  file on your browser to run the application.
+
+Write your code in the *src/index.js*  file.
+
+The base URL will be: http://localhost:3000 
+
+### License
+    Copyright(c) Robert Njung'e
+
